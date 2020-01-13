@@ -1,2 +1,2 @@
-# theFinch
+# The Finch
 A publishing platform for Saint Andrew's students built with Jekyll
