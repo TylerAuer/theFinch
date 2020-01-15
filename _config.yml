@@ -1,3 +1,8 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "The Finch" # the name of your site, e.g. ACME Corp.
+
+exclude:
+  - /_posts/template.md
+
+permalink: /:year/:month/:day/:title:output_ext
