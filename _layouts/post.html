@@ -1,9 +1,72 @@
 ---
 layout: default
 ---
-<div class="feat-img">
-  <img src={{ page.feat-img }}>
+<div class="post-header">
+    
+    <p class="post-home-link"><a href="/">The Finch presents</a></p>
+
+    <p class="post-title">{{ page.title }}</p>
+
+    {%- comment -%} display categories {%- endcomment -%}
+    {% for category in page.categories %}
+        <span class="post-category">{{category}}</span>
+        {% unless forloop.last %} • {% endunless %}
+    {% endfor %}
+
+    <p class="post-snippet">{{ page.snippet }}</p>
+    
+    <p class="post-byline">By:
+    {%- comment -%} Adds multiple authors {%- endcomment -%}
+    {% assign authorCount = page.authors | size %}
+    {% if authorCount == 0 %}
+        Anonymous
+    {% elsif authorCount == 1 %}
+        {{ page.authors | first }}
+    {% else %}
+        {% for author in page.authors %}
+            {% if forloop.first %}
+                {{ author }},
+            {% elsif forloop.last %}
+                and {{ author }}
+            {% else %}
+                {{ author }},
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+  | {{ page.date | date: "%B %e, %Y" }}
+  </p>
 </div>
-<div id="main">
-  {{ content }}
+
+<div class="feat-img">
+  <img src={{ page.featured-image }}>
+</div>
+
+<div id="main-narrow">
+    {{ content }}
+    
+    <div class="masthead">
+        <h3>Contributors</h3>
+        <ul>
+            {%- comment -%} Artists {%- endcomment -%}
+            {% if page.artists %}
+                {% for artist in page.artists %}
+                    <li><b>Art:</b> {{artist}}</li>
+                {% endfor %}
+            {% endif %}
+            
+            {%- comment -%} Copy-editors {%- endcomment -%}
+            {% if page.copy-editors %}
+                {% for ce in page.copy-editors %}
+                    <li><b>Copy Editor:</b> {{ce}}</li>
+                {% endfor %}
+            {% endif %}
+
+            {%- comment -%} Copy-editors {%- endcomment -%}
+            {% if page.technical-editors %}
+                {% for te in page.technical-editors %}
+                    <li><b>Technical Editor:</b> {{te}}</li>
+                {% endfor %}
+            {% endif %}
+        </ul>
+    </div>
 </div>

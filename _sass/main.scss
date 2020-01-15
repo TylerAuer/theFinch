@@ -1,18 +1,13 @@
-// 'Permanent Marker', cursive;
-// 'Crimson Text', serif;
-// 'Open Sans', sans-serif;
-
-// TODO: Update the google fonts to only have Permanent marker and open sans
+// fonts
 $bodyFont: "Open Sans", sans-serif;
-$headingFont: "Crimson Text", serif;
-$accentFont: "Permanent Marker", cursive;
+$fancyFont: "Permanent Marker", cursive;
+$accentFont: "Oswald", sans-serif;
 
 /* Color Theme Swatches in Hex */
 $background-color: #f9f8f8;
 $text-color: #0d0106;
 $accent-color-1: #8c045a;
-$accent-color-2: #44ffd1;
-$accent-color-3: #6153cc;
+$accent-color-2: #f2bd2e;
 
 /* General Settings */
 html,
@@ -21,12 +16,12 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-}
-
-body {
   font-family: $bodyFont;
   color: $text-color;
   background-color: $background-color;
+}
+
+body {
 }
 
 img {
@@ -34,15 +29,17 @@ img {
   height: auto;
 }
 
-#main {
+#main-wide {
   max-width: 1000px;
   margin: 0px auto;
 }
 
-a {
-  color: $accent-color-3;
+#main-narrow {
+  max-width: 600px;
+  margin: 0px auto;
 }
 
+a,
 a:hover {
   color: $accent-color-1;
 }
@@ -53,27 +50,72 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $accentFont;
+  font-family: $fancyFont;
   color: $accent-color-1;
 }
 
 /* Specific Settings */
 #header-title {
-  font-family: $accentFont;
+  font-family: $fancyFont;
   font-size: 65px;
   color: $accent-color-1;
+
+  a {
+    color: $accent-color-1;
+  }
+
+  a:hover {
+    color: $accent-color-1;
+    text-decoration: none;
+  }
 }
 
 #nav-links {
   a {
     color: $accent-color-1;
     font-size: 20px;
-    font-family: $headingFont;
+    font-family: $accentFont;
   }
   .nav-current-page {
     font-weight: bold;
     text-transform: uppercase;
   }
+}
+
+.post-header {
+  max-width: 1000px;
+  margin: 10px auto;
+  text-align: center;
+
+  .post-category {
+    color: $accent-color-1;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: $accentFont;
+  }
+
+  .post-title {
+    font-size: 90px;
+    color: $accent-color-1;
+    font-family: $fancyFont;
+    line-height: 1;
+  }
+
+  .post-home-link {
+    color: $accent-color-1;
+    font-family: $fancyFont;
+    text-transform: lowercase;
+    font-size: 20px;
+  }
+
+  .post-snippet {
+    color: darkgray;
+    font-size: 20px;
+  }
+}
+
+.feat-img {
+  margin: 10px auto 20px auto;
 }
 
 #footer-bar {
