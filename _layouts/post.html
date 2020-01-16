@@ -25,11 +25,11 @@ layout: default
     {% else %}
         {% for author in page.authors %}
             {% if forloop.first %}
-                {{ author }},
+                {{ author }}, 
             {% elsif forloop.last %}
                 and {{ author }}
             {% else %}
-                {{ author }},
+                {{ author }}, 
             {% endif %}
         {% endfor %}
     {% endif %}
