@@ -6,3 +6,15 @@ exclude:
   - /_posts/template.md
 
 permalink: /:year/:month/:day/:title:output_ext
+
+collections:
+  contributors:
+    title: Contributors
+    output: true
+  categories:
+    title: Categories
+    output: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-email-protect
