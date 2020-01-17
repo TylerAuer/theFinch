@@ -1,7 +1,6 @@
 ---
-layout: post
 draft: false # will not appear on website unless true
-featured: true # will apply different styles
+featured: false # will apply different styles
 title: Title of the piece
 featured-image: /assets/images/filename.ext # relative url for main image must begin with "/"
 snippet: This is the description of the piece
@@ -17,7 +16,7 @@ artists:
 copy-editors:
   - copy-editor1
   - copy-editor2
-technical-editor:
+technical-editors:
   - technical-editor1
   - technical-editor2
 ---
