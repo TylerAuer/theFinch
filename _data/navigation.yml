@@ -1,8 +1,8 @@
 - name: About
-  link: #
+  link: about.html
 - name: Authors
   link: #
 - name: Categories
   link: #
 - name: Contributors
-  link: #
+  link: /contributors.html
