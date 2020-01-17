@@ -21,9 +21,6 @@ body {
   background-color: $background-color;
 }
 
-body {
-}
-
 img {
   width: 100%;
   height: auto;
@@ -116,6 +113,16 @@ h6 {
 
 .feat-img {
   margin: 10px auto 20px auto;
+}
+
+.indent {
+  margin-left: 30px;
+}
+
+.post-section-break-img {
+  margin: 10px auto 20px auto;
+  height: 30px;
+  width: auto;
 }
 
 #footer-bar {
