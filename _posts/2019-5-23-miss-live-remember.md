@@ -1,7 +1,6 @@
 ---
-layout: post
 draft: false
-featured: true
+featured: false
 title: Miss, Live, Remember
 featured-image: /assets/images/equality.png
 snippet: When a chapter of our lives has ended, we are left with our memories of the past and hopes for what lies ahead.
@@ -9,7 +8,8 @@ categories: Poetry
 authors: Maia Chien '19
 artists: Lucas Axel '20
 copy-editors: Anna Amukomon ‘19
-technical-editor: Mr. Auer
+technical-editors: 
+    - Mr. Hour
 ---
 
 I miss  

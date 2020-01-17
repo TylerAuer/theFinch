@@ -1,5 +1,4 @@
 ---
-layout: post
 draft: false
 featured: false
 title: "Words That Matter"
@@ -7,10 +6,14 @@ featured-image: /assets/images/equality.png
 snippet: "There are some human rights that everyone should have. If you restrict a person, they aren’t actually “there,” and that person could have made a big mark on the world. Race, religion, identity and poverty should not be restrictions. You have to let people rise above and be who they truly are, so they can make a difference."
 categories: [Nonfiction, Review]
 authors:
-  [Wyatt Darke '19, Sonny R. Elmerick '19, Georgia Starr '20, Ruby Rocker '19]
+  - Wyatt Darke '19
+  - Sonny R. Elmerick '19
+  - Georgia Starr '20
+  - Ruby Rocker '19
 artists: A. Chyu ’20
 copy-editors: Ms. Orme
-technical-editor: Mr. Auer
+technical-editors: 
+  - Mr. Auer
 ---
 
 **Wyatt Darke ‘19:** What does a book mean to you? Is it a written memory, or just a stupid stack of paper? To me, a book is a journey. Not with pictures, or voices, but with words. You see, a book is what you make it. You could read a book as nothing but a requirement, but you could also feel the book. You can travel with the characters, seeing what they see in your head, and creating environments to your own creative limit. Books allow you to think, and have time to do that thinking.
