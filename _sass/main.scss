@@ -6,12 +6,14 @@ $accentFont: "Oswald", sans-serif;
 /* Color Theme Swatches in Hex */
 $background-color: #f9f8f8;
 $text-color: #0d0106;
+$fadedTextColor: rgb(116, 116, 116);
 $accent-color-1: #8c045a;
-$accent-color-2: #f2bd2e;
+$accent-color-2: #f6c02b;
 
 /* General Settings */
 html,
 body {
+  height: 100%;
   width: 100%;
   margin: 0px;
   padding: 0px;
@@ -19,6 +21,24 @@ body {
   font-family: $bodyFont;
   color: $text-color;
   background-color: $background-color;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+b,
+strong {
+  color: $accent-color-1;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 0;
 }
 
 img {
@@ -29,11 +49,13 @@ img {
 #main-wide {
   max-width: 1000px;
   margin: 0px auto;
+  padding: 0px 10px;
 }
 
 #main-narrow {
   max-width: 600px;
   margin: 0px auto;
+  padding: 0px 10px;
 }
 
 a,
@@ -50,11 +72,14 @@ h6 {
   font-family: $fancyFont;
   color: $accent-color-1;
 }
+.h-alt {
+  font-family: $accentFont;
+}
 
 /* Specific Settings */
 #header-title {
   font-family: $fancyFont;
-  font-size: 65px;
+  font-size: 75px;
   color: $accent-color-1;
 
   a {
@@ -67,15 +92,76 @@ h6 {
   }
 }
 
+#header-standard {
+  margin-bottom: 50px;
+}
+
 #nav-links {
   a {
     color: $accent-color-1;
     font-size: 20px;
     font-family: $accentFont;
+    text-transform: uppercase;
   }
   .nav-current-page {
     font-weight: bold;
-    text-transform: uppercase;
+    color: $accent-color-2;
+  }
+}
+
+.post-author-date {
+  margin: 30px auto;
+
+  .post-byline {
+    color: $accent-color-1;
+    font-weight: bolder;
+    font-size: 20px;
+
+    a {
+      color: black;
+    }
+
+    a:hover {
+      color: $accent-color-1;
+      text-decoration: none;
+    }
+  }
+
+  .post-dateline {
+    font-size: 17px;
+    font-weight: bold;
+    margin: 5px auto;
+    color: $accent-color-1;
+  }
+}
+
+.dropcap {
+  color: $accent-color-2;
+  float: left;
+  font-family: "Oswald", serif;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+#masthead {
+  border-top: 1px solid $accent-color-1;
+  padding-top: 20px;
+  margin: 20px auto;
+}
+
+// used when lists of posts are being shown
+.post-preview {
+  margin: 40px auto;
+
+  .post-preview-title {
+    font-size: 35px;
+  }
+
+  .post-preview-snippet {
+    color: $fadedTextColor;
   }
 }
 
@@ -85,17 +171,19 @@ h6 {
   text-align: center;
 
   .post-category {
-    color: $accent-color-1;
+    color: $accent-color-2;
     text-transform: uppercase;
     font-size: 20px;
-    font-family: $accentFont;
+    font-family: $fancyFont;
   }
 
   .post-title {
     font-size: 90px;
-    color: $accent-color-1;
-    font-family: $fancyFont;
+    color: black;
+    font-weight: bold;
+    font-family: $accentFont;
     line-height: 1;
+    margin: 30px auto;
   }
 
   .post-home-link {
@@ -103,11 +191,14 @@ h6 {
     font-family: $fancyFont;
     text-transform: lowercase;
     font-size: 20px;
+    margin: 0px;
   }
 
   .post-snippet {
-    color: darkgray;
-    font-size: 20px;
+    color: $fadedTextColor;
+    font-size: 19px;
+    margin: 20px auto;
+    max-width: 800px;
   }
 }
 
@@ -117,6 +208,10 @@ h6 {
 
 .indent {
   margin-left: 30px;
+}
+
+.section-break {
+  margin: 30px auto;
 }
 
 .post-section-break-img {
