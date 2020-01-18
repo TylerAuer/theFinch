@@ -3,4 +3,44 @@ layout: default
 ---
 {% include header.html %}
 
+<div id="main-wide">
+    {% assign authored_posts = site.posts | where: 'authors', page.title %}
+    {% if authored_posts.size > 0 %}
+        <h1 class="h-alt">Authored</h1>
+        {% for post in authored_posts %}
+            {% include post-preview.html %}
+        {% endfor %}
+        {% include section-break.html %}
+        {% endif %}
+
+    {% assign art_posts = site.posts | where: 'artists', page.title %}
+    {% if art_posts.size > 0 %}
+        <h1 class="h-alt">Art</h1>
+        {% for post in art_posts %}
+            {% include post-preview.html %}
+        {% endfor %}
+        {% include section-break.html %}
+    {% endif %}
+
+    {% assign copy_posts = site.posts | where: 'copy-editors', page.title %}
+    {% if copy_posts.size > 0 %}
+        <h1 class="h-alt">Copy Editing</h1>
+        {% for post in copy_posts %}
+            {% include post-preview.html %}
+        {% endfor %}
+        {% include section-break.html %}
+    {% endif %}
+
+
+
+    {% assign tech_posts = site.posts | where: 'technical-editors', page.title %}
+    {% if tech_posts.size > 0 %}
+        <h1 class="h-alt">Technical Editing</h1>
+        {% for post in tech_posts %}
+            {% include post-preview.html %}
+        {% endfor %}
+    {% endif %}
+    
 {{ content }}
+
+</div>
