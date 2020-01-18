@@ -4,15 +4,15 @@ title: "The Finch" # the name of your site, e.g. ACME Corp
 
 exclude:
   - /_posts/template.md
+  - /_contributors/template.md
+  - /_category/template.md
 
 permalink: /:year/:month/:day/:title:output_ext
 
 collections:
   contributors:
-    title: contributors
     output: true
-  categories:
-    title: categories
+  category:
     output: true
 
 defaults:
@@ -27,14 +27,16 @@ defaults:
     values:
       layout: "post"
   - scope:
-      path: "/_contributors"
+      path: ""
+      type: category
     values:
-      layout: "contributor"
+      layout: category
   - scope:
-      path: "/category"
+      path: ""
+      type: contributors
     values:
-      layout: "category.html"
+      layout: contributor
 
-    plugins:
+plugins:
   - jekyll-feed
   - jekyll-email-protect
