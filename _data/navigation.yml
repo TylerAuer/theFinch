@@ -1,8 +1,8 @@
 - name: About
-  link: about.html
-- name: Authors
-  link: #
+  link: /about.html
 - name: Categories
-  link: #
+  link: /categories.html
 - name: Contributors
   link: /contributors.html
+- name: Saint Andrew's
+  link: http://st-andrews.org
