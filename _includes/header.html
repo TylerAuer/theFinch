@@ -1,18 +1,20 @@
-<header>
-    <div class="row">
-        <div id="header-title" class="col-12">
-            <a href="/">
-                <div class="text-center">The Finch</div>
-            </a>
+<div id="header-standard">
+    <header>
+        <div class="row">
+            <div id="header-title" class="col-12">
+                <a href="/">
+                    <div class="text-center">{{ page.title }}</div>
+                </a>
+            </div>
         </div>
+    </header>
+    <div id="nav-links" class="mb-3">
+        <nav class="nav d-flex justify-content-center">
+            {% for item in site.data.navigation %}
+            <a href="{{ item.link }}" class="px-4{% if page.url == item.link %} nav-current-page{% endif %}">
+                {{ item.name }}
+            </a>
+            {% endfor %}
+        </nav>
     </div>
-</header>
-<div id="nav-links" class="mb-3">
-    <nav class="nav d-flex justify-content-center">
-        {% for item in site.data.navigation %}
-        <a href="{{ item.link }}" class="px-4{% if page.url == item.link %} nav-current-page{% endif %}">
-            {{ item.name }}
-        </a>
-        {% endfor %}
-    </nav>
 </div>
