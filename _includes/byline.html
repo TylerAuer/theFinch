@@ -1,0 +1,24 @@
+<div class="post-byline">
+    {%- comment -%} Adds multiple authors {%- endcomment -%}
+    {% assign authorCount = post.authors | size %}
+    {% if authorCount == 0 %}
+        Anonymous
+        
+    {% elsif authorCount == 1 %}
+        <a href="/contributor/{{ post.authors | first }}">
+            {{ post.authors | first }}
+        </a>
+    {% else %}
+
+        {% for author in post.authors %}
+            {% if forloop.first %}
+                <a href="/contributor/{{ author }}">{{ author }},</a>
+            {% elsif forloop.last %}
+                & <a href="/contributor/{{ author }}">{{ author }}</a>
+            {% else %}
+                <a href="/contributor/{{ author }}">{{ author }},</a>
+            {% endif %}
+        {% endfor %}
+
+    {% endif %}
+</div>
