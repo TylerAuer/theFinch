@@ -10,8 +10,10 @@ authors:
   - Sonny R. Elmerick '19
   - Georgia Starr '20
   - Ruby Rocker '19
-artists: A. Chyu ’20
-copy-editors: Ms. Orme
+artists: 
+  - A. Chyu '20
+copy-editors: 
+  - Ms. Orme
 technical-editors: 
   - Mr. Auer
 ---

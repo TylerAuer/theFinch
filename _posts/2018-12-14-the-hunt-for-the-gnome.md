@@ -9,12 +9,13 @@ categories:
 authors:
   - Charles Raers
 artists:
-  - Sonny R. Elmerick ’19
+  - Sonny R. Elmerick '19
 copy-editors:
-  - Sydney Kate ’20
+  - Sydney Kate '20
 technical-editors:
   - Mr. Auer
 ---
+
 Imagine… flying with fairies, fighting evil queens, and singing a good old song. All you need is a good book. Monday, September 17, through Thursday, September 20, was the Enchanted Forest Book Fair. The entrance to the book fair was very inviting, with a festive rainbow of balloons and an inflatable unicorn, enticing families to come in and browse the countless books. Inside the fair, there was a very special guest: Mankini the Gnome from the movie Sherlock Gnomes! Any child who found this special gnome could enter their name in a raffle to win a prize.
 
 There were books for all ages, ranging from Pre-K to Teens! There were multiple genres as well, from realistic fiction, to non-fiction, and fantasy.

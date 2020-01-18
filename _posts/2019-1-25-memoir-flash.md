@@ -9,7 +9,7 @@ categories:
 authors:
   - Ruby Rocker '19
 artists:
-  - A. Chyu ’20
+  - A. Chyu '20
 copy-editors:
   - Ms. Orme
 technical-editors:

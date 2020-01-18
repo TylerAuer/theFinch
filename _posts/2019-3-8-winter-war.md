@@ -6,21 +6,17 @@ featured-image: /assets/images/winter-war.png # relative url for main image
 snippet: This unique and little-known tale artfully describes how a small yet resilient Finnish population successfully defeated one of the greatest military superpowers of all time.
 categories:
   - Nonfiction
-  - Hurray
 authors:
   - Art Locke
-  - Mr. Auer
-  - Stevorino
-  - Isabel Cameron the 4th
 artists:
-  - A. Chyu ‘20
+  - A. Chyu '20
 copy-editors:
   - Sydney Kate
 technical-editors:
-  - Jim
+  - Mr. Auer
 ---
 
-Nearly seventy years ago, in the depths of a freezing cold Finnish winter, the resilient Finnish army was able to fend off the might of the Soviet military for nearly four months before succumbing to sheer numbers and military power. The war was fought from 1939-1940 and resulted in a Soviet victory and Finland ceding 11% of its territory to the Soviet Union. The Soviet Union lost much face over this operation; they lost nearly 400,000 soldiers, tanks and aircraft! This war took place in one of the coldest climates in the world; it demonstrated the resilience of the Finnish people and the brutality of weather. Even so, this caused Hitler to underestimate the Soviets during his invasion of Russia, which eventually led to the defeat of the Axis powers.
+<span class="dropcap">N</span>early seventy years ago, in the depths of a freezing cold Finnish winter, the resilient Finnish army was able to fend off the might of the Soviet military for nearly four months before succumbing to sheer numbers and military power. The war was fought from 1939-1940 and resulted in a Soviet victory and Finland ceding 11% of its territory to the Soviet Union. The Soviet Union lost much face over this operation; they lost nearly 400,000 soldiers, tanks and aircraft! This war took place in one of the coldest climates in the world; it demonstrated the resilience of the Finnish people and the brutality of weather. Even so, this caused Hitler to underestimate the Soviets during his invasion of Russia, which eventually led to the defeat of the Axis powers.
 
 Fearful of the Nazi expansion in Europe, the Soviet Union wanted to fortify its western borders. The Soviet Prime Minister requested that Finland cede some of its eastern territory and a few islands for the Russians to fortify in return for a large swath of Russian land. Suspicious of Stalin’s intentions, the Finns refused the offer. Then, on November 26th, 1939, an unidentified group shelled a Soviet guard post near the Finnish border. This event sparked the fire that would become a devastating war between the Soviet Union and Finland.
 

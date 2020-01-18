@@ -1,7 +1,7 @@
 ---
 draft: false # will not appear on website unless true
 featured: false # will apply different styles
-title: The Best Songs You’ve Never Heard
+title: "The Best Songs You’ve Never Heard"
 featured-image: /assets/images/music-girl-with-color.png # relative url for main image must begin with "/"
 snippet: With over 40 millions songs on Spotify, it can be hard to find your next favorite song. Never fear! Members of the Saint Andrew’s community are here to share their favorite song and the best song they think that no one else knows.
 categories:
@@ -11,7 +11,7 @@ authors:
   - Annika Gray '19
   - George Kimrich '21
 artists:
-  - Claire Bridges ’19
+  - Claire Bridges '19
 copy-editors:
   - Mr. Auer
 technical-editors:
@@ -21,13 +21,13 @@ technical-editors:
 
 Despite a vocal range falling below baritone but above donkey and a musical career that peaked with a widely panned performance of Hot Crossed Buns on the recorder in third grade, I nevertheless find myself enthralled by music. I listen to music while I’m working, driving, eating, cleaning, cooking, and at pretty much any other time when I can get away with it. It can amplify my mood or help me to block out distractions. But, often, it’s more: part of me in a way that I can’t quite explain.
 
+For a college art class I once created a number of atypical self portraits. One piece was a wall-sized, handwritten list of my entire iTunes music library — this being the time before everyone had unlimited access to any song they wanted through Spotify. For college-aged me, my music collection wasn’t just my current listening preferences, it was a portrait of who I was. That feeling still rings true to me today.
+
+I am constantly searching for new music to become part of me. This post is the first in a series selfishly designed to help me (and you too if you are still reading) discover new artists, genres, and jams. In each post I’ll invite members of the community to share their favorite songs and the best songs they don’t think others know. I’ll start.
+
 <div class="float-right mx-3">
 <iframe src="https://open.spotify.com/embed/track/7DqktFsRwJa0XDFPMjV1xJ" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
-
-For a college art class I once created a number of atypical self portraits. One piece was a wall-sized, handwritten list of my entire iTunes music library — this being the time before everyone had unlimited access to any song they wanted through Spotify. For college-aged me, my music collection wasn’t just my current listening preferences, it was a portrait of who I was. That feeling still rings true to me today.
-
-I am constantly searching for new music to become part of me. This post is the first in a series selfishly designed to help me (and you too if you are still reading) discover new artists, genres, and jams. In each post I’ll invite members of the community to share their favorite songs and the best songs they don’t think others know . I’ll start.
 
 My favorite song is Out on the Weekend by Neil Young. As a child, my family traveled from New England to Jackson, Wyoming each August. We’d fly in catching our first glance of The Tetons off the starboard wing. Arriving at our accommodations my mother would immediately hit play on the same CD of Neil Young’s greatest hits. This trip was my favorite week of the year, and Young’s voice was the soundtrack.
 

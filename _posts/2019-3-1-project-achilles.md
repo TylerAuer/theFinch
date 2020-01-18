@@ -9,7 +9,7 @@ categories:
 authors:
   - Charles Raers
 artists:
-  - A. Chyu ‘20
+  - A. Chyu '20
 copy-editors:
   - Naomi Fawn
 technical-editors:
