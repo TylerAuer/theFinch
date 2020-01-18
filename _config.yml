@@ -1,6 +1,6 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "The Finch" # the name of your site, e.g. ACME Corp.
+title: "The Finch" # the name of your site, e.g. ACME Corp
 
 exclude:
   - /_posts/template.md
@@ -9,12 +9,32 @@ permalink: /:year/:month/:day/:title:output_ext
 
 collections:
   contributors:
-    title: Contributors
+    title: contributors
     output: true
   categories:
-    title: Categories
+    title: categories
     output: true
 
-plugins:
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: "/_contributors"
+    values:
+      layout: "contributor"
+  - scope:
+      path: "/category"
+    values:
+      layout: "category.html"
+
+    plugins:
   - jekyll-feed
   - jekyll-email-protect

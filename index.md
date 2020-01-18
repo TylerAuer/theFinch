@@ -1,13 +1,14 @@
 ---
-layout: feature-list
-title: Front Post
-feat-img: assets/images/dark-girl-looking-up.jpg
+layout: front-page
+title: Front Page
 ---
 
 <ul>
   {% for post in site.posts %}
     <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <h2>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </h2>
       <p>By: 
           {% assign authorCount = post.authors | size %}
             {% if authorCount == 0 %}
@@ -30,3 +31,4 @@ feat-img: assets/images/dark-girl-looking-up.jpg
     </li>
   {% endfor %}
 </ul>
+
