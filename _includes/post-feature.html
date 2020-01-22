@@ -1,0 +1,11 @@
+<div class="container-fluid post-feature">
+    <a href="{{ post.url }}">
+        <img src="{{ post.featured-image }}">
+    </a>
+    <a href="{{ post.url }}">
+        <h1 class="post-feature-title">{{ post.title }}</h1>
+    </a>
+
+    <p class="post-feature-snippet">{{ post.snippet }}</p>
+    <span class="post-feature-byline">{% include byline.html %}</span>
+</div>

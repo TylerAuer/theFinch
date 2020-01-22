@@ -165,6 +165,40 @@ h6 {
   }
 }
 
+.post-feature {
+  text-align: center;
+  margin: 0px auto;
+  padding-bottom: 25px;
+  border-bottom: 1px dashed $accent-color-2;
+
+  .post-feature-title {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 0px;
+    font-family: $fancyFont;
+  }
+
+  .post-category {
+    text-align: center;
+    font-family: $fancyFont;
+    color: $accent-color-2;
+    font-size: 25px;
+  }
+
+  .post-feature-byline {
+    font-size: 26px;
+    font-weight: bold;
+    font-family: $accentFont;
+  }
+
+  .post-feature-snippet {
+    text-align: center;
+    color: $fadedTextColor;
+    font-size: 18px;
+    margin: 5px auto 10px auto;
+  }
+}
+
 .post-header {
   max-width: 1000px;
   margin: 10px auto;
