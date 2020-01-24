@@ -1,10 +1,18 @@
 ---
 title: About
+layout: about
+date: 2018-12-06 06:00:00 -8
+authors:
+  - Ms. Orme
+artists:
+  - Kimmi Williams ’20
+featured-image: /assets/images/the-finch-line-drawing-cropped.png # relative url for main image must begin with "/"
 ---
+<span class="dropcap">A</span> finch is a clever bird most notable for its ability to adapt to dynamic environments. They are small and inconspicuous in both color and song. It is their actions; the choices they make that set these birds apart. There are finches that use tools, crack nuts, dig holes and mimic the behavior of other animals in order to survive. Finches are bright, curious, hardy and tough, adaptable and resilient members of their ever changing world.
 
-## Need to cite the artist
-
-A finch is a clever bird most notable for its ability to adapt to dynamic environments. They are small and inconspicuous in both color and song. It is their actions; the choices they make that set these birds apart. There are finches that use tools, crack nuts, dig holes and mimic the behavior of other animals in order to survive. Finches are bright, curious, hardy and tough, adaptable and resilient members of their ever changing world.
+<div class="feat-img">
+    <img src="{{ page.featured-image }}">
+</div>
 
 In our first few weeks of life, the Saint Andrew’s Writing Club was searching for a name and outlet to display our work. While we had many excited and willing middle school writers, we did not have a unifying identity. The symbol of Saint Andrew’s is an oak tree, and much of the literature coming from the school uses this concept in their titles. The Oak is the biannual magazine, “The Leaflet” is the weekly newsletter. The lower school has a fantastic newspaper enthusiastically called, The Acorn. All of these names realize the nature of the Saint Andrew’s community of learners, rooted around the symbol of our school.
 
@@ -14,7 +22,7 @@ We had some uncertainty about where we fit into the scheme of published school l
 
 {% include section-break.html %}
 
-At Saint Andrew’s Episcopal School, middle schoolers are the oldest students. Many members of the Writing Club have been here since pre-K, and are about to embark on the next steps of their educational adventure. Writing Club members pointed out this platform will be a legacy for middle schoolers growing up and leaving Saint Andrew’s. They wanted a name that acknowledged and celebrated their bittersweet graduation into high school. What title would fit our writing platform, accomplishing all these strong intentions?
+<span class="dropcap">At</span> Saint Andrew’s Episcopal School, middle schoolers are the oldest students. Many members of the Writing Club have been here since pre-K, and are about to embark on the next steps of their educational adventure. Writing Club members pointed out this platform will be a legacy for middle schoolers growing up and leaving Saint Andrew’s. They wanted a name that acknowledged and celebrated their bittersweet graduation into high school. What title would fit our writing platform, accomplishing all these strong intentions?
 
 > Quite suddenly, there it was, obvious and perfect. We knew who we were.
 
