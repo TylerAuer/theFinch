@@ -1,3 +1,26 @@
 ---
 title: Develop
 ---
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+
+
+<div class="container">
+    <p>
+        This page used by students to style and prepare their work for publishing on <a href="/">The Finch</a>. This
+        page makes formatting posts for web-publication easy using <a
+            href="https://en.wikipedia.org/wiki/Markdown">Markdown</a>, a lightweight markup language. The markdown file
+        and a <a href="https://shopify.github.io/liquid/">Liquid</a> heading
+        are then processed in <a href="https://jekyllrb.com/">Jekyll</a>, a static-site generator.
+    </p>
+
+    <textarea></textarea>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+<script>
+    var simplemde = new SimpleMDE({
+        styleSelectedText: false,
+    });
+</script>
