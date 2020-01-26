@@ -6,7 +6,7 @@ title: Categories
 
     {% for category in site.category %}
         <h2>
-            <a href="{{ category.url }}">
+            <a href="{{ category.url }}.html">
                 {{ category.title }}
             </a>
         </h2>

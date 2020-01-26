@@ -9,7 +9,7 @@ title: Contributors
 <ul>
     {% for contributor in site.contributors %}
         <h3>
-            <a href="{{ contributor.url }}">{{ contributor.title }}</a>
+            <a href="{{ contributor.url }}.html">{{ contributor.title }}</a>
         </h3>
     {% endfor %}
 </ul>

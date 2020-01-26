@@ -9,7 +9,7 @@ layout: default
 
     <div class="post-categories">
         {% for category in page.categories %}
-        <a href="/category/{{category}}"><span class="post-category">{{category}}</span></a>
+        <a href="/category/{{category}}.html"><span class="post-category">{{category}}</span></a>
         {% unless forloop.last %} • {% endunless %}
         {% endfor %}
     </div>
@@ -42,35 +42,35 @@ layout: default
     <div id="masthead">
 
         {% if page.artists %}
-            <h3>Art</h3>
-            <p class="contributor">
-                {% for artist in page.artists %}
-                    <a href="/contributor/{{ artist }}">{{ artist }}</a>
-                    {% unless forloop.last %} • {% endunless %}
-                {% endfor %}
-            </p>
+        <h3>Art</h3>
+        <p class="contributor">
+            {% for artist in page.artists %}
+            <a href="/contributor/{{ artist }}.html">{{ artist }}</a>
+            {% unless forloop.last %} • {% endunless %}
+            {% endfor %}
+        </p>
         {% endif %}
 
         {% if page.copy-editors %}
-            <h3>Copy Editing</h3>
-            <p class="contributor">
-                {% for ce in page.copy-editors %}
-                    <a href='/contributor/{{ ce }}'>{{ ce }}</a>
-                    {% unless forloop.last %} • {% endunless %}
-                {% endfor %}
-            </p>
+        <h3>Copy Editing</h3>
+        <p class="contributor">
+            {% for ce in page.copy-editors %}
+            <a href='/contributor/{{ ce }}.html'>{{ ce }}</a>
+            {% unless forloop.last %} • {% endunless %}
+            {% endfor %}
+        </p>
         {% endif %}
 
         {% if page.technical-editors %}
-            <h3>Technical Editing</h3>
-            <p class="contributor">
-                {% for te in page.technical-editors %}
-                    <a href="/contributor/{{ te }}">{{ te }}</a>
-                {% unless forloop.last %} • {% endunless %}
+        <h3>Technical Editing</h3>
+        <p class="contributor">
+            {% for te in page.technical-editors %}
+            <a href="/contributor/{{ te }}.html">{{ te }}</a>
+            {% unless forloop.last %} • {% endunless %}
             {% endfor %}
-            </p>
+        </p>
         {% endif %}
-   
+
     </div>
 
 </div>
