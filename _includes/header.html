@@ -8,12 +8,13 @@
             </div>
         </div>
     </header>
+
     <div id="nav-links" class="mb-3">
         <nav class="nav d-flex justify-content-center">
             {% for item in site.data.navigation %}
-            <a href="{{ item.link }}" class="px-4{% if page.url == item.link %} nav-current-page{% endif %}">
-                {{ item.name }}
-            </a>
+                <a href="{{ item.link }}" class="px-2{% if page.url == item.link %} nav-current-page{% endif %}">
+                    {{ item.name }}
+                </a>
             {% endfor %}
         </nav>
     </div>
