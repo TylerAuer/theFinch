@@ -6,5 +6,7 @@
   link: /contributors.html
 - name: Develop
   link: /develop.html
+- name: Feed
+  link: /feed.xml
 - name: Saint Andrew's
   link: http://st-andrews.org
