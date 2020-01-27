@@ -5,18 +5,18 @@
         Anonymous
         
     {% elsif authorCount == 1 %}
-        <a href="/contributor/{{ post.authors | first }}">
+        <a href="/contributor/{{ post.authors | first }}.html">
             {{ post.authors | first }}
         </a>
     {% else %}
 
         {% for author in post.authors %}
             {% if forloop.first %}
-                <a href="/contributor/{{ author }}">{{ author }},</a>
+                <a href="/contributor/{{ author }}.html">{{ author }},</a>
             {% elsif forloop.last %}
-                & <a href="/contributor/{{ author }}">{{ author }}</a>
+                & <a href="/contributor/{{ author }}.html">{{ author }}</a>
             {% else %}
-                <a href="/contributor/{{ author }}">{{ author }},</a>
+                <a href="/contributor/{{ author }}.html">{{ author }},</a>
             {% endif %}
         {% endfor %}
 
