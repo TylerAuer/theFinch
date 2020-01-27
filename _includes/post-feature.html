@@ -5,7 +5,14 @@
     <a href="{{ post.url }}">
         <h1 class="post-feature-title">{{ post.title }}</h1>
     </a>
+    <div class="post-feature-author-date-box">
+        <span class="post-feature-byline">{% include byline.html %}</span>
+        <p class="post-feature-date"> {{post.date | date: "%B %e, %Y" }}</p>
+    </div>
 
     <p class="post-feature-snippet">{{ post.snippet }}</p>
-    <span class="post-feature-byline">{% include byline.html %}</span>
+</div>
+
+<div class='text-center container-fluid'>
+    <img class='feature-section-break-img' src="/assets/images/nest-logo-accent-with-line.svg">
 </div>

@@ -7,7 +7,7 @@ $accentFont: "Oswald", sans-serif;
 $background-color: #f9f8f8;
 $text-color: #0d0106;
 $fadedTextColor: rgb(116, 116, 116);
-$accent-color-1: #8c045a;
+$accent-color-1: #990563;
 $accent-color-2: #f6c02b;
 
 /* General Settings */
@@ -79,7 +79,7 @@ h6 {
 /* Specific Settings */
 #header-title {
   font-family: $fancyFont;
-  font-size: 75px;
+  font-size: 80px;
   color: $accent-color-1;
 
   a {
@@ -93,13 +93,13 @@ h6 {
 }
 
 #header-standard {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 #nav-links {
   a {
     color: $accent-color-1;
-    font-size: 20px;
+    font-size: 22px;
     font-family: $accentFont;
     text-transform: uppercase;
   }
@@ -189,36 +189,53 @@ blockquote {
 }
 
 .post-feature {
-  text-align: center;
+  text-align: left;
   margin: 0px auto;
   padding-bottom: 25px;
-  border-bottom: 1px dashed $accent-color-2;
+  // border-bottom: 1px dashed $accent-color-1;
 
   .post-feature-title {
-    text-align: center;
-    font-size: 60px;
-    margin-bottom: 0px;
-    font-family: $fancyFont;
+    font-size: 75px;
+    font-family: $accentFont;
+    font-weight: bold;
+    color: $accent-color-1;
+    background: -webkit-linear-gradient(left, $accent-color-1, $accent-color-2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 10px auto;
   }
 
   .post-category {
-    text-align: center;
     font-family: $fancyFont;
     color: $accent-color-2;
     font-size: 25px;
   }
 
+  .post-feature-author-date-box {
+    border-left: solid 4px $accent-color-2;
+    padding-left: 5px;
+    margin-bottom: 5px;
+  }
+
   .post-feature-byline {
-    font-size: 26px;
+    font-size: 30px;
     font-weight: bold;
     font-family: $accentFont;
   }
 
-  .post-feature-snippet {
-    text-align: center;
-    color: $fadedTextColor;
+  .post-feature-date {
     font-size: 18px;
-    margin: 5px auto 10px auto;
+  }
+
+  .post-feature-snippet {
+    color: black;
+    font-size: 20px;
+    margin: 10px auto;
+  }
+  .feature-section-break-img {
+    width: 90%;
+    height: auto;
+    margin: 0px auto;
   }
 }
 
