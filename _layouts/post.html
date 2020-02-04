@@ -9,7 +9,7 @@ layout: default
 
     <div class="post-categories">
         {% for category in page.categories %}
-        <a href="/category/{{category}}.html"><span class="post-category">{{category}}</span></a>
+        <a href="/category/{{category | slugify }}.html"><span class="post-category">{{category}}</span></a>
         {% unless forloop.last %} • {% endunless %}
         {% endfor %}
     </div>
